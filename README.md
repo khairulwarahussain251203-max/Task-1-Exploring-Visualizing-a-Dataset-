@@ -1,30 +1,10 @@
 # Exploring and Visualizing a Simple Dataset 
 AI/ML-Internship_Task-1
 
-# 🌸 Iris Dataset Analysis - Exploratory Data Analysis & Visualization
+# Iris Dataset Analysis - Exploratory Data Analysis & Visualization
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![Pandas](https://img.shields.io/badge/Pandas-1.3.0-green)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.11.0-blue)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.0-red)
 
-## 📋 Table of Contents
-- [Task Objective](#-task-objective)
-- [Dataset Description](#-dataset-description)
-- [Tools & Libraries Used](#-tools--libraries-used)
-- [Methodology](#-methodology)
-- [Models Applied](#-models-applied)
-- [Key Results & Findings](#-key-results--findings)
-- [Visualizations](#-visualizations)
-- [Installation & Setup](#-installation--setup)
-- [Usage](#-usage)
-- [Conclusions](#-conclusions)
-- [Future Work](#-future-work)
-
----
-
-## 🎯 Task Objective
+## Task Objective
 
 The primary objective of this project is to **load, inspect, analyze, and visualize** the classic Iris dataset to understand:
 - Data structure and characteristics
@@ -37,7 +17,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 ### **Dataset:** Iris Flower Dataset
 **Source:** UCI Machine Learning Repository / Seaborn built-in dataset
@@ -72,7 +52,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 
 ---
 
-## 📝 Methodology
+## Methodology
 
 ### **Phase 1: Data Loading & Initial Inspection**
 - Loaded dataset using Seaborn's built-in function
@@ -97,7 +77,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 
 ---
 
-## 🤖 Models Applied
+## Models Applied
 
 **Note:** This is primarily an **Exploratory Data Analysis (EDA)** project. While no predictive models were built in this specific notebook, the analysis provides insights that would inform model selection:
 
@@ -120,9 +100,9 @@ This is a fundamental data science task that demonstrates the complete explorato
 
 ---
 
-## 🔑 Key Results & Findings
+## Key Results & Findings
 
-### 📌 **1. Dataset Overview**
+### **1. Dataset Overview**
 ✓ Total Samples: 150
 ✓ Features: 4 numerical + 1 categorical
 ✓ Species: Setosa (50), Versicolor (50), Virginica (50)
@@ -131,7 +111,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 ✓ Dataset Balance: Perfectly balanced (33.33% each)
 
 
-### 📌 **2. Statistical Insights**
+### **2. Statistical Insights**
 
 | Feature | Range (cm) | Mean ± Std | Key Observation |
 |---------|-----------|------------|-----------------|
@@ -140,7 +120,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 | **Petal Length** | 1.0 - 6.9 | 3.76 ± 1.76 | High discriminative power |
 | **Petal Width** | 0.1 - 2.5 | 1.20 ± 0.76 | High discriminative power |
 
-### 📌 **3. Species Characteristics**
+### **3. Species Characteristics**
 
 | Species | Sepal Length | Sepal Width | Petal Length | Petal Width | Distinguishability |
 |---------|--------------|-------------|--------------|-------------|-------------------|
@@ -148,7 +128,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 | **Versicolor** | Medium | Medium | Medium | Medium | Overlaps with Virginica |
 | **Virginica** | Large | Medium-Large | Large | Large | Overlaps with Versicolor |
 
-### 📌 **4. Correlation Analysis**
+### **4. Correlation Analysis**
 
 **Strong Correlations:**
 - ✅ **Petal Length ↔ Petal Width**: **0.96** (Very strong positive)
@@ -160,7 +140,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 - ❌ **Sepal Width ↔ Petal Length**: **-0.43** (Moderate negative)
 - ❌ **Sepal Width ↔ Petal Width**: **-0.37** (Weak negative)
 
-### 📌 **5. Outlier Detection**
+### **5. Outlier Detection**
 
 | Feature | Outliers Present | Species Affected | Severity |
 |---------|-----------------|------------------|----------|
@@ -171,7 +151,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### **Generated Visualizations:**
 
@@ -192,7 +172,7 @@ This is a fundamental data science task that demonstrates the complete explorato
 
 ---
 
-## 💻 Installation & Setup
+## Installation & Setup
 
 ### **Prerequisites:**
 ```bash
