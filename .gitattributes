@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Fix language statistics
+*.ipynb linguist-detectable=true
+*.py linguist-detectable=false
